@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nossa Playlist – feat Pablo & Yasmin</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❤️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<!-- LANDING -->
+<div id="landing">
+  <div class="bg-blobs">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+  </div>
+  <div class="logo-wrap">
+    <svg class="spotify-icon" viewBox="0 0 168 168" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#1DB954" d="M83.996 0C37.747 0 0 37.745 0 83.997c0 46.254 37.747 84 83.996 84 46.254 0 84.004-37.746 84.004-84 0-46.252-37.75-83.997-84.004-83.997zm38.521 121.136a5.233 5.233 0 01-7.196 1.745c-19.712-12.038-44.532-14.766-73.726-8.093a5.23 5.23 0 01-6.246-3.923 5.23 5.23 0 013.921-6.247c31.964-7.308 59.42-4.165 81.568 9.352a5.23 5.23 0 011.679 7.166zm10.273-22.84a6.547 6.547 0 01-9.003 2.167c-22.568-13.867-56.97-17.889-83.655-9.786a6.547 6.547 0 01-8.17-4.348 6.547 6.547 0 014.348-8.17c30.497-9.254 68.386-4.772 94.283 11.139a6.546 6.546 0 012.197 9.098zm.881-23.783c-27.069-16.078-71.754-17.564-97.604-9.718a7.864 7.864 0 01-9.82-5.227 7.864 7.864 0 015.227-9.82c29.609-9.005 78.834-7.265 109.88 11.241a7.865 7.865 0 012.908 10.737 7.864 7.864 0 01-10.591 2.787z"/>
+    </svg>
+    <span class="logo-text">Spotify</span>
+  </div>
+  <div class="main-title">
+    <span class="feat" id="landing-feat">feat. Pablo &amp; Yasmin</span>
+    <h1>Nossa<br><span>Playlist</span></h1>
+  </div>
+  
+  <button class="cta-btn" id="start-btn">Ver Nossa História</button>
+  <span class="tap-hint">Toque para começar</span>
+</div>
+
+
+
+<!-- WRAPPED -->
+<div id="wrapped">
+  <div id="progress-bar"></div>
+  <div id="skip-left"></div>
+  <div id="skip-right"></div>
+
+  <!-- 1 – Intro -->
+  <div class="slide" id="slide-1">
+    <div class="s1-bg"></div>
+    <div class="s1-content">
+      <p class="s1-eyebrow">Uma história de amor</p>
+      <h2 class="s1-big">Essa é a<br>nossa <em>história.</em></h2>
+      <p class="s1-sub" id="s1-names-sub">Pablo &amp; Yasmin</p>
+    </div>
+  </div>
+
+  <!-- 2 – Foto 1 -->
+  <div class="slide" id="slide-2">
+    <div class="s2-bg"></div>
+    <div class="photo-slide">
+      <div class="photo-frame" id="photo-frame-1">
+        <img src="imagens/1.jpeg" alt="Foto 1 - Pablo &amp; Yasmin">
+      </div>
+      <div class="photo-label">
+        <p class="track-num">Faixa 01</p>
+        <p class="track-title">Uma foto, mil lembranças</p>
+        <p class="track-artists" id="photo1-artists">Pablo &amp; Yasmin</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 – Stats -->
+  <div class="slide" id="slide-3">
+    <div class="s3-bg"></div>
+    <p class="stats-title">Nossa playlist em números</p>
+    <div class="stat-card">
+      <p class="stat-label">Sorrisos por dia</p>
+      <p class="stat-val"><span>∞</span></p>
+      <p class="stat-desc">É impossível contar</p>
+      <div class="stat-bar-wrap"><div class="stat-bar" style="width:100%"></div></div>
+    </div>
+    <div class="stat-card">
+      <p class="stat-label">Minutos pensando em você</p>
+      <p class="stat-val">1,<span>440</span></p>
+      <p class="stat-desc">Todo dia, o dia todo</p>
+      <div class="stat-bar-wrap"><div class="stat-bar" style="width:95%"></div></div>
+    </div>
+    <div class="stat-card">
+      <p class="stat-label">Nível de amor</p>
+      <p class="stat-val"><span>100</span>%</p>
+      <p class="stat-desc">Top 0.001% do mundo</p>
+      <div class="stat-bar-wrap"><div class="stat-bar" style="width:100%"></div></div>
+    </div>
+  </div>
+
+  <!-- 4 – Foto 2 -->
+  <div class="slide" id="slide-4">
+    <div class="s4-bg"></div>
+    <div class="photo-slide">
+      <div class="photo-frame" id="photo-frame-2">
+        <img src="imagens/2.png" alt="Foto 2 - Pablo &amp; Yasmin">
+      </div>
+      <div class="photo-label">
+        <p class="track-num">Faixa 02</p>
+        <p class="track-title">O Melhor Momento (Todos)</p>
+        <p class="track-artists" id="photo2-artists">Pablo &amp; Yasmin</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 – Setlist -->
+  <div class="slide" id="slide-5">
+    <div class="s5-bg"></div>
+    <p class="playlist-title">Nossa setlist</p>
+    <p class="playlist-big">Momentos<br>favoritos ❤️</p>
+    <div class="playlist-item"><span class="pi-rank">1</span><div class="pi-cover pi-cover-1">😍</div><div class="pi-info"><p class="pi-title">Quando nos conhecemos</p><p class="pi-artist">O melhor dia</p></div><span class="pi-plays">💚</span></div>
+    <div class="playlist-item"><span class="pi-rank">2</span><div class="pi-cover pi-cover-2">🌙</div><div class="pi-info"><p class="pi-title">Noites conversando</p><p class="pi-artist">Favorita de todas</p></div><span class="pi-plays">💚</span></div>
+    <div class="playlist-item"><span class="pi-rank">3</span><div class="pi-cover pi-cover-3">🌅</div><div class="pi-info"><p class="pi-title">Aventuras juntos</p><p class="pi-artist">Em loop</p></div><span class="pi-plays">💚</span></div>
+    <div class="playlist-item"><span class="pi-rank">4</span><div class="pi-cover pi-cover-4">🤝</div><div class="pi-info"><p class="pi-title">De mãos dadas</p><p class="pi-artist">Infinitas vezes</p></div><span class="pi-plays">💚</span></div>
+    <div class="playlist-item"><span class="pi-rank">5</span><div class="pi-cover pi-cover-5">🎂</div><div class="pi-info"><p class="pi-title">Dias especiais</p><p class="pi-artist">Cada um único</p></div><span class="pi-plays">💚</span></div>
+  </div>
+
+  <!-- 6 – Foto 3 -->
+  <div class="slide" id="slide-6">
+    <div class="s6-bg"></div>
+    <div class="photo-slide">
+      <div class="photo-frame" id="photo-frame-3">
+        <img src="imagens/3.jpeg" alt="Foto 3 - Pablo &amp; Yasmin">
+      </div>
+      <div class="photo-label">
+        <p class="track-num">Faixa 03</p>
+        <p class="track-title">A Foto Perfeita</p>
+        <p class="track-artists" id="photo3-artists">Pablo &amp; Yasmin</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 – Mensagem principal -->
+  <div class="slide" id="slide-7">
+    <div class="s7-bg"></div>
+    <div class="msg-content">
+      <span class="msg-icon">💚</span>
+      <p class="msg-quote" id="msg-quote">"<em>você é</em><br>minha música<br>favorita"</p>
+      <p class="msg-from">— com amor, <span class="msg-names" id="msg-names">Pablo</span></p>
+    </div>
+  </div>
+
+  <!-- 8 – Foto 4 -->
+  <div class="slide" id="slide-8">
+    <div class="s8-bg"></div>
+    <div class="photo-slide">
+      <div class="photo-frame" id="photo-frame-4">
+        <img src="imagens/4.jpeg" alt="Foto 4 - Pablo &amp; Yasmin">
+      </div>
+      <div class="photo-label">
+        <p class="track-num">Faixa 04</p>
+        <p class="track-title">Para Sempre</p>
+        <p class="track-artists" id="photo4-artists">Pablo &amp; Yasmin</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 9 – LYRIC CARD "Eu te amo" ===== -->
+  <div class="slide lyric-slide lyric-bg-green" id="slide-9">
+    <span class="ls-tagline">amor</span>
+    <div class="lyric-card">
+      <div class="lc-header">
+        <div class="lc-cover lc-cover-green">🎵</div>
+        <div class="lc-meta">
+          <p class="lc-song">Eu Te Amo</p>
+          <p class="lc-artist"><span id="lyric1-name1">Pablo</span></p>
+        </div>
+      </div>
+      <div class="lc-lyrics">
+        <span class="lc-bold">Eu te amo<br>mais do que<br>qualquer música<br></span><span class="lc-muted">que já ouvi na vida.</span>
+      </div>
+      <div class="lc-footer">
+        <div class="lc-spotify-logo">
+          <svg viewBox="0 0 168 168" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M83.996 0C37.747 0 0 37.745 0 83.997c0 46.254 37.747 84 83.996 84 46.254 0 84.004-37.746 84.004-84 0-46.252-37.75-83.997-84.004-83.997zm38.521 121.136a5.233 5.233 0 01-7.196 1.745c-19.712-12.038-44.532-14.766-73.726-8.093a5.23 5.23 0 01-6.246-3.923 5.23 5.23 0 013.921-6.247c31.964-7.308 59.42-4.165 81.568 9.352a5.23 5.23 0 011.679 7.166zm10.273-22.84a6.547 6.547 0 01-9.003 2.167c-22.568-13.867-56.97-17.889-83.655-9.786a6.547 6.547 0 01-8.17-4.348 6.547 6.547 0 014.348-8.17c30.497-9.254 68.386-4.772 94.283 11.139a6.546 6.546 0 012.197 9.098zm.881-23.783c-27.069-16.078-71.754-17.564-97.604-9.718a7.864 7.864 0 01-9.82-5.227 7.864 7.864 0 015.227-9.82c29.609-9.005 78.834-7.265 109.88 11.241a7.865 7.865 0 012.908 10.737 7.864 7.864 0 01-10.591 2.787z"/></svg>
+          <span>Spotify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 10 – LYRIC CARD "Não está sozinha" ===== -->
+  <div class="slide lyric-slide lyric-bg-pink" id="slide-10">
+    <span class="ls-tagline">juntos</span>
+    <div class="lyric-card">
+      <div class="lc-header">
+        <div class="lc-cover lc-cover-pink">🩷</div>
+        <div class="lc-meta">
+          <p class="lc-song">Nunca Sozinha</p>
+          <p class="lc-artist"><span id="lyric2-name1">Pablo</span></p>
+        </div>
+      </div>
+      <div class="lc-lyrics">
+        <span class="lc-muted">Onde você for,<br></span><span class="lc-bold">você nunca vai<br>estar sozinha —<br></span><span class="lc-muted">eu sempre estarei aqui.</span>
+      </div>
+      <div class="lc-footer">
+        <div class="lc-spotify-logo">
+          <svg viewBox="0 0 168 168" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M83.996 0C37.747 0 0 37.745 0 83.997c0 46.254 37.747 84 83.996 84 46.254 0 84.004-37.746 84.004-84 0-46.252-37.75-83.997-84.004-83.997zm38.521 121.136a5.233 5.233 0 01-7.196 1.745c-19.712-12.038-44.532-14.766-73.726-8.093a5.23 5.23 0 01-6.246-3.923 5.23 5.23 0 013.921-6.247c31.964-7.308 59.42-4.165 81.568 9.352a5.23 5.23 0 011.679 7.166zm10.273-22.84a6.547 6.547 0 01-9.003 2.167c-22.568-13.867-56.97-17.889-83.655-9.786a6.547 6.547 0 01-8.17-4.348 6.547 6.547 0 014.348-8.17c30.497-9.254 68.386-4.772 94.283 11.139a6.546 6.546 0 012.197 9.098zm.881-23.783c-27.069-16.078-71.754-17.564-97.604-9.718a7.864 7.864 0 01-9.82-5.227 7.864 7.864 0 015.227-9.82c29.609-9.005 78.834-7.265 109.88 11.241a7.865 7.865 0 012.908 10.737 7.864 7.864 0 01-10.591 2.787z"/></svg>
+          <span>Spotify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 11 – LYRIC CARD "Para sempre" ===== -->
+  <div class="slide lyric-slide lyric-bg-blue" id="slide-11">
+    <span class="ls-tagline">eterno</span>
+    <div class="lyric-card">
+      <div class="lc-header">
+        <div class="lc-cover lc-cover-blue">✨</div>
+        <div class="lc-meta">
+          <p class="lc-song">Para Sempre</p>
+          <p class="lc-artist"><span id="lyric3-name1">Pablo</span> &amp; <span id="lyric3-name2">Yasmin</span></p>
+        </div>
+      </div>
+      <div class="lc-lyrics">
+        <span class="lc-bold">Escolho você<br>todos os dias,<br></span><span class="lc-muted">hoje, amanhã<br>e para sempre.</span>
+      </div>
+      <div class="lc-footer">
+        <div class="lc-spotify-logo">
+          <svg viewBox="0 0 168 168" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M83.996 0C37.747 0 0 37.745 0 83.997c0 46.254 37.747 84 83.996 84 46.254 0 84.004-37.746 84.004-84 0-46.252-37.75-83.997-84.004-83.997zm38.521 121.136a5.233 5.233 0 01-7.196 1.745c-19.712-12.038-44.532-14.766-73.726-8.093a5.23 5.23 0 01-6.246-3.923 5.23 5.23 0 013.921-6.247c31.964-7.308 59.42-4.165 81.568 9.352a5.23 5.23 0 011.679 7.166zm10.273-22.84a6.547 6.547 0 01-9.003 2.167c-22.568-13.867-56.97-17.889-83.655-9.786a6.547 6.547 0 01-8.17-4.348 6.547 6.547 0 014.348-8.17c30.497-9.254 68.386-4.772 94.283 11.139a6.546 6.546 0 012.197 9.098zm.881-23.783c-27.069-16.078-71.754-17.564-97.604-9.718a7.864 7.864 0 01-9.82-5.227 7.864 7.864 0 015.227-9.82c29.609-9.005 78.834-7.265 109.88 11.241a7.865 7.865 0 012.908 10.737 7.864 7.864 0 01-10.591 2.787z"/></svg>
+          <span>Spotify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 12 – LYRIC CARD "Minha favorita" ===== -->
+  <div class="slide lyric-slide lyric-bg-warm" id="slide-12">
+    <span class="ls-tagline">vida</span>
+    <div class="lyric-card">
+      <div class="lc-header">
+        <div class="lc-cover lc-cover-warm">🔥</div>
+        <div class="lc-meta">
+          <p class="lc-song">Minha Favorita</p>
+          <p class="lc-artist"><span id="lyric4-name1">Pablo</span></p>
+        </div>
+      </div>
+      <div class="lc-lyrics">
+        <span class="lc-muted">De todas as histórias<br>que já vivi,<br></span><span class="lc-bold">a nossa é<br>de longe<br>a minha favorita.</span>
+      </div>
+      <div class="lc-footer">
+        <div class="lc-spotify-logo">
+          <svg viewBox="0 0 168 168" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M83.996 0C37.747 0 0 37.745 0 83.997c0 46.254 37.747 84 83.996 84 46.254 0 84.004-37.746 84.004-84 0-46.252-37.75-83.997-84.004-83.997zm38.521 121.136a5.233 5.233 0 01-7.196 1.745c-19.712-12.038-44.532-14.766-73.726-8.093a5.23 5.23 0 01-6.246-3.923 5.23 5.23 0 013.921-6.247c31.964-7.308 59.42-4.165 81.568 9.352a5.23 5.23 0 011.679 7.166zm10.273-22.84a6.547 6.547 0 01-9.003 2.167c-22.568-13.867-56.97-17.889-83.655-9.786a6.547 6.547 0 01-8.17-4.348 6.547 6.547 0 014.348-8.17c30.497-9.254 68.386-4.772 94.283 11.139a6.546 6.546 0 012.197 9.098zm.881-23.783c-27.069-16.078-71.754-17.564-97.604-9.718a7.864 7.864 0 01-9.82-5.227 7.864 7.864 0 015.227-9.82c29.609-9.005 78.834-7.265 109.88 11.241a7.865 7.865 0 012.908 10.737 7.864 7.864 0 01-10.591 2.787z"/></svg>
+          <span>Spotify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 13 – LYRIC CARD "Você me completa" ===== -->
+  <div class="slide lyric-slide" id="slide-13" style="background:#2a1a40;">
+    <span class="ls-tagline" style="color:rgba(255,255,255,.08)">alma</span>
+    <div class="lyric-card">
+      <div class="lc-header">
+        <div class="lc-cover" style="background:linear-gradient(135deg,#5b1fa8,#b06bff);">🌟</div>
+        <div class="lc-meta">
+          <p class="lc-song">Metade de Mim</p>
+          <p class="lc-artist"><span id="lyric5-name1">Pablo</span> &amp; <span id="lyric5-name2">Yasmin</span></p>
+        </div>
+      </div>
+      <div class="lc-lyrics">
+        <span class="lc-bold">Você não me<br>completa —<br></span><span class="lc-muted">você me faz<br>querer ser<br></span><span class="lc-bold">inteiro.</span>
+      </div>
+      <div class="lc-footer">
+        <div class="lc-spotify-logo">
+          <svg viewBox="0 0 168 168" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M83.996 0C37.747 0 0 37.745 0 83.997c0 46.254 37.747 84 83.996 84 46.254 0 84.004-37.746 84.004-84 0-46.252-37.75-83.997-84.004-83.997zm38.521 121.136a5.233 5.233 0 01-7.196 1.745c-19.712-12.038-44.532-14.766-73.726-8.093a5.23 5.23 0 01-6.246-3.923 5.23 5.23 0 013.921-6.247c31.964-7.308 59.42-4.165 81.568 9.352a5.23 5.23 0 011.679 7.166zm10.273-22.84a6.547 6.547 0 01-9.003 2.167c-22.568-13.867-56.97-17.889-83.655-9.786a6.547 6.547 0 01-8.17-4.348 6.547 6.547 0 014.348-8.17c30.497-9.254 68.386-4.772 94.283 11.139a6.546 6.546 0 012.197 9.098zm.881-23.783c-27.069-16.078-71.754-17.564-97.604-9.718a7.864 7.864 0 01-9.82-5.227 7.864 7.864 0 015.227-9.82c29.609-9.005 78.834-7.265 109.88 11.241a7.865 7.865 0 012.908 10.737 7.864 7.864 0 01-10.591 2.787z"/></svg>
+          <span>Spotify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 14 – DJAVAN lyric card -->
+  <div class="slide lyric-slide lyric-bg-green" id="slide-14">
+    <div class="lyric-card">
+      <div class="lc-header">
+        <div class="lc-cover lc-cover-green">🎵</div>
+        <div class="lc-meta">
+          <p class="lc-song">Um Amor Puro</p>
+          <p class="lc-artist">Djavan</p>
+        </div>
+      </div>
+      <div class="lc-lyrics">
+        <span class="lc-bold">Um amor tão puro que<br>ainda nem sabe<br>A força que tem</span><br>
+        <span class="lc-muted">É teu e de mais<br>ninguém</span>
+      </div>
+      <div class="lc-footer">
+        <div class="lc-spotify-logo">
+          <svg viewBox="0 0 168 168" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M83.996 0C37.747 0 0 37.745 0 83.997c0 46.254 37.747 84 83.996 84 46.254 0 84.004-37.746 84.004-84 0-46.252-37.75-83.997-84.004-83.997zm38.521 121.136a5.233 5.233 0 01-7.196 1.745c-19.712-12.038-44.532-14.766-73.726-8.093a5.23 5.23 0 01-6.246-3.923 5.23 5.23 0 013.921-6.247c31.964-7.308 59.42-4.165 81.568 9.352a5.23 5.23 0 011.679 7.166zm10.273-22.84a6.547 6.547 0 01-9.003 2.167c-22.568-13.867-56.97-17.889-83.655-9.786a6.547 6.547 0 01-8.17-4.348 6.547 6.547 0 014.348-8.17c30.497-9.254 68.386-4.772 94.283 11.139a6.546 6.546 0 012.197 9.098zm.881-23.783c-27.069-16.078-71.754-17.564-97.604-9.718a7.864 7.864 0 01-9.82-5.227 7.864 7.864 0 015.227-9.82c29.609-9.005 78.834-7.265 109.88 11.241a7.865 7.865 0 012.908 10.737 7.864 7.864 0 01-10.591 2.787z"/></svg>
+          <span>Spotify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 15 – Foto 5 -->
+  <div class="slide" id="slide-15">
+    <div class="s15-bg"></div>
+    <div class="photo-slide">
+      <div class="photo-frame" id="photo-frame-5">
+        <img src="imagens/5.jpeg" alt="Foto 5 - Pablo &amp; Yasmin">
+      </div>
+      <div class="photo-label">
+        <p class="track-num">Faixa 05</p>
+        <p class="track-title">Nosso Momento Favorito</p>
+        <p class="track-artists" id="photo5-artists">Pablo &amp; Yasmin</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 16 – Final -->
+  <div class="slide" id="slide-16">
+    <div class="s9-confetti" id="confetti"></div>
+    <div class="s9-vinyl"><div></div></div>
+    <div class="s9-content">
+      <p class="s9-eyebrow">Eu te amo</p>
+      <h2 class="s9-big">Nossa<br><span>Playlist</span></h2>
+      <p class="s9-sub" id="s9-sub-text">feat. Pablo &amp; Yasmin</p>
+      <div class="s9-names">
+        <span class="name-pill" id="final-name1">Pablo</span>
+        <span class="name-divider">💚</span>
+        <span class="name-pill" id="final-name2">Yasmin</span>
+      </div>
+      <button class="share-btn" onclick="restartWrapped()">Reviver ↻</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
