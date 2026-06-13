@@ -15,7 +15,7 @@ const SLIDE_MUSIC = {
   9:  'musicas/YTDown_Shorts_Pele-MilFlows-Vem-Ca-pele-pelemilflows-v_Media_OdsaIHFjG6Q_008_128k.mp3', // slide 10
   10: 'musicas/YTDown_Shorts_Bruno-Mars-When-I-Was-Your-Man_Media_0GERqd3vASI_009_128k.mp3',            // slide 11
   11: 'musicas/YTDown_Shorts_Dias-de-luta-Dias-de-gloria-Charlie-Brow_Media_hcDaUCS-Nxs_009_128k.mp3', // slide 12
-  12: 'musicas/Como É Grande o Meu Amor Por Você - Roberto Carlos (Com letra legendado) #mpb - AI Shorts Brasil (128k).mp3', // slide 13 (era repetição)
+  12: 'musicas/Como É Grande o Meu Amor Por Você - Roberto Carlos (128k).mp3', // slide 13 – Como É Grande o Meu Amor
   13: 'musicas/YTDown_Shorts_Um-amor-puro-Djavan-mpb-brasil-musica-le_Media_U9Uq_hpSJME_008_128k.mp3', // slide 14 – Djavan
   14: 'musicas/YTDown_Shorts_EU-NEM-SEI-OQUE-DIZER-QUANDO-FALO-DE-VC_Media_XD3PXaYUhZI_007_128k.mp3', // slide 15 – Foto 5 (nem sei o que dizer)
   15: 'musicas/YTDown_Shorts_AS-NOITES-SABEM-COMO-EU-TE-ESPEREI-SONHO_Media_hLO0HknTSRI_009_128k.mp3', // slide 16 – Final (Sonho de Amor)
